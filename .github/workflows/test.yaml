@@ -1,0 +1,12 @@
+---
+name: testing
+on:
+  push:
+    paths:
+      - "**.py"
+
+jobs:
+  test-py:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls
